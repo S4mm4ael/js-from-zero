@@ -1,9 +1,6 @@
 :root {
   --blue: #9BC5C9;
   --green: #BEC496;
-  --containerWidth: 1200px;
-  --containerPadding: 40px;
-  --breakpoint1450: 1450px;
-  --breakpoint768: 768px;
-  --breakpoint480: 480px;
+  --burgerColor: #000;
+  --burgerActiveColor: #fff;
 }
