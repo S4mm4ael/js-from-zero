@@ -5,16 +5,24 @@ nav {
   overflow: hidden;
 }
 
+.b-nav-container {
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
 .b-navbar {
   display: flex;
   width: 100%;
+  align-items: center;
   justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 1.5rem;
 }
 
 .b-nav__logo {
-  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .b-nav-list {
@@ -30,11 +38,22 @@ nav {
   cursor: pointer;
 }
 
+.nav-item__link,
+a {
+  transition: .3s;
+}
+
+.nav-item__link:hover,
+a:hover {
+  color: #000;
+}
+
 @media screen and (max-width: 768px) {
 
   .b-nav-list {
     position: fixed;
     background: var(--blue);
+    background: linear-gradient(0deg, var(--blue) 49%, var(--green) 86%);
     left: 0;
     top: 0;
     height: 100vh;

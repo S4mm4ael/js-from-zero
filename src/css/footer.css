@@ -1,0 +1,37 @@
+@import url(./vars.css);
+
+.b-footer-container {
+
+  margin: 0 auto;
+}
+
+.b-social-icons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.b-social-list {
+  display: flex;
+  gap: 20px;
+}
+
+.b-social-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-social-logo {
+  height: 40px;
+  transition: .3s;
+}
+
+.b-social-logo:hover {
+  filter: invert(1);
+}
+
+.b-page__footer {
+  background-color: var(--blue);
+  width: 100%;
+}

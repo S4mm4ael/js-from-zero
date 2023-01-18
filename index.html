@@ -15,13 +15,17 @@
     <nav class="b-nav">
       <div class="b-container b-nav-container">
         <div class="b-navbar">
-          <div class="b-nav__logo"> </div>
+          <div class="b-nav__logo"> <img src="./src/svg/logo.svg" height="40px " alt="logo"></div>
           <ul class="b-list b-nav-list">
             <li class="b-nav-list__item"><a href="#contacts" class="nav-item__link" data-i18="contacts">Contacts</a>
             </li>
-            <li class="b-nav-list__item"><a href="#about" class="nav-item__link" data-i18="summary">Summary</a></li>
             <li class="b-nav-list__item"><a href="#skills" class="nav-item__link" data-i18="skills">Skills</a></li>
+            <li class="b-nav-list__item"><a href="#about" class="nav-item__link" data-i18="summary">About me</a></li>
+            <li class="b-nav-list__item"><a href="#strenghts" class="nav-item__link" data-i18="strenghts">Strenghts</a>
+            </li>
             <li class="b-nav-list__item"><a href="#education" class="nav-item__link" data-i18="education">Education</a>
+            </li>
+            <li class="b-nav-list__item"><a href="#courses" class="nav-item__link" data-i18="courses">Courses</a>
             </li>
             <li class="b-nav-list__item"><a href="#languages" class="nav-item__link" data-i18="languages">Languages</a>
             </li>
@@ -36,20 +40,9 @@
   </header>
   <main class="b-page__main">
     <div class="b-container b-main-container">
-      <div class="b-theme-change">
-        <p data-i18="theme">Theme:</p>
-        <div class=" b-theme__item b-theme__item_active" id="light" data-i18="light"> LIGHT
-        </div>
-        <div class="b-theme__item" id="dark" data-i18="dark"> DARK </div>
-      </div>
-      <div class="b-lang-change">
-        <p data-i18="language">Language:</p>
-        <div class="b-change__item b-change__item_active" id="eng" data-i18="eng"> ENG </div>
-        <div class="b-change__item" id="rus" data-i18="rus"> RUS </div>
-        <div class="b-change__item" id="bel" data-i18="bel"> BEL </div>
-      </div>
+
       <section class="b-section b-profile-section" id="profile">
-        <img src="assets/img/photo.png" alt="Photo" class="b-profile-section__photo">
+        <img src="./src/img/photo.jpg" alt="Photo" class="b-profile-section__photo">
         <div class="b-profile-name">
           <h1 data-i18="name">Semion Krapivin</h1>
           <h2 data-i18="profession">Junior Front-end developer</h2>
@@ -57,7 +50,7 @@
       </section>
       <section class="b-section b-contacts-section" id="contacts">
         <div class="b-section-title">
-          <img class="b-contacts-icon" src="assets/svg/contacts.svg" alt="contacts-icon">
+          <img class="b-icon" src="src/svg/contacts.svg" alt="contacts-icon">
           <h3 data-i18="contacts">Contacts</h3>
         </div>
         <ul class="b-list b-contacts-list">
@@ -66,24 +59,8 @@
           <li class="b-contacts-list__item" data-i18="adress">Minsk, Belarus</li>
         </ul>
       </section>
-      <section class="b-section  b-skills-section" id="skills">
-        <div class="b-section-title"><img class="b-icon" src="assets/svg/skills.svg" alt="skills-icon">
-          <h3 data-i18="skills">Skills</h3>
-        </div>
-        <ul class="b-list b-skills__list">
-          <li><img src="./assets/png/html-5.png" alt="HTML"></li>
-          <li><img src="./assets/png/css-3.png" alt="CSS"></li>
-          <li><img src="./assets/png/sass.png" alt="SASS"></li>
-          <li><img src="./assets/png/js.png" alt="JavaScript"></li>
-          <li><img src="./assets/png/typescript.png" alt="TypeScript"></li>
-          <li><img src="./assets/png/git.png" alt="Git"></li>
-          <li><img src="./assets/png/webpack.png" alt="Webpack"></li>
-          <li><img src="./assets/png/react.png" alt="React"></li>
-          <li><img src="./assets/png/redux.png" alt="Redux"></li>
-        </ul>
-      </section>
       <section class="b-section b-about-section" id="about">
-        <div class="b-section-title"><img class="b-icon" src="assets/svg/cat.svg" alt="about-icon">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/about.svg" alt="about-icon">
           <h3 data-i18="about">About me</h3>
         </div>
         <p data-i18="about-text">
@@ -91,7 +68,27 @@
           I'm new to front-end development, I'm here to test my strength and
           motivation in a new profession.
         </p>
-        <h4 data-i18="strenghts">My strenghts:</h4>
+      </section>
+      <section class="b-section b-skills-section" id="skills">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/skills.svg" alt="skills-icon">
+          <h3 data-i18="skills">Skills</h3>
+        </div>
+        <ul class="b-list b-skills__list">
+          <li class="b-list-skills__item"><img src="./src/svg/skills/html-5.png" alt="HTML"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/css-3.png" alt="CSS"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/sass.png" alt="SASS"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/js.png" alt="JavaScript"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/typescript.png" alt="TypeScript"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/git.png" alt="Git"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/webpack.png" alt="Webpack"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/react.png" alt="React"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/redux.png" alt="Redux"></li>
+        </ul>
+      </section>
+      <section class="b-section b-strenghts-section" id="strenghts">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/strenghts.svg" alt="strenghts-icon">
+          <h3 data-i18="strenghts">My strenghts</h3>
+        </div>
         <ul class="b-list b-about-list">
           <li data-i18="strenght1">Good communication skills</li>
           <li data-i18="strenght2">Skill to work in team</li>
@@ -101,7 +98,7 @@
         </ul>
       </section>
       <section class="b-section b-education-section" id="education">
-        <div class="b-section-title"><img class="b-icon" src="assets/svg/edu.svg" alt="education-icon">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/education.svg" alt="education-icon">
           <h3 data-i18="education">Education</h3>
         </div>
         <ul class="b-list b-education-list">
@@ -117,7 +114,12 @@
               Plants Engineering major</p>
           </li>
         </ul>
-        <h4 data-i18="courses">Courses</h4>
+
+      </section>
+      <section class="b-section b-courses-section" id="courses">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/courses.svg" alt="education-icon">
+          <h3 data-i18="education">Courses</h3>
+        </div>
         <ul class="b-list b-education-list">
           <li class="b-education-list__item"><a href="https://www.sololearn.com/Play/HTML/hoc">Sololearn HTML</a>
           </li>
@@ -139,7 +141,7 @@
         </ul>
       </section>
       <section class="b-section b-languages-section" id="languages">
-        <div class="b-section-title"><img class="icon" src="assets/svg/lang-com.svg" alt="language-icon">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/languages.svg" alt="language-icon">
           <h3 data-i18="languages">Languages</h3>
         </div>
         <ul class="b-list b-languages-list">
@@ -159,13 +161,11 @@
       <div class="b-social-icons">
         <ul class="b-list b-social-list ">
           <li class="b-social-list__item"><a href="https://www.facebook.com/semion.krapivin/"><img class="b-social-logo"
-                src="assets/svg/facebook.svg" alt="facebook"></a></li>
+                src="./src/svg/facebook.svg" alt="facebook"></a></li>
           <li class="b-social-list__item"><a href="https://www.instagram.com/mr_s4m/?hl=ru"><img class="b-social-logo"
-                src="assets/svg/instagram.svg" alt="instagram"></a></li>
-          <li class="b-social-list__item"><a href="https://twitter.com/Semion_minskiy"><img class="b-social-logo"
-                src="assets/svg/twitter.svg" alt="twitter"></a></li>
+                src="./src/svg/instagram.svg" alt="instagram"></a></li>
           <li class="b-social-list__item"><a href="https://github.com/S4mm4ael"><img class="b-social-logo"
-                src="assets/svg/github.svg" alt="github"></a></li>
+                src="./src/svg/github.svg" alt="github"></a></li>
         </ul>
       </div>
 
