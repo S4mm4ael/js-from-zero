@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./src/svg/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>CV JS From Zero</title>
+</head>
+
+<body class="b-page">
+  <header class="b-page__header">
+    <nav class="b-nav">
+      <div class="b-container b-nav-container">
+        <div class="b-navbar">
+          <div class="b-nav__logo"> <img src="./src/svg/logo.svg" height="40px " alt="logo"></div>
+          <ul class="b-list b-nav-list">
+            <li class="b-nav-list__item"><a href="#contacts" class="nav-item__link" data-i18="contacts">Contacts</a>
+            </li>
+            <li class="b-nav-list__item"><a href="#skills" class="nav-item__link" data-i18="skills">Skills</a></li>
+            <li class="b-nav-list__item"><a href="#about" class="nav-item__link" data-i18="summary">About me</a></li>
+            <li class="b-nav-list__item"><a href="#strenghts" class="nav-item__link" data-i18="strenghts">Strenghts</a>
+            </li>
+            <li class="b-nav-list__item"><a href="#education" class="nav-item__link" data-i18="education">Education</a>
+            </li>
+            <li class="b-nav-list__item"><a href="#courses" class="nav-item__link" data-i18="courses">Courses</a>
+            </li>
+            <li class="b-nav-list__item"><a href="#languages" class="nav-item__link" data-i18="languages">Languages</a>
+            </li>
+          </ul>
+          <div class="b-nav-list__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main class="b-page__main">
+    <div class="b-container b-main-container">
+
+      <section class="b-section b-profile-section" id="profile">
+        <img src="./src/img/photo.jpg" alt="Photo" class="b-profile-section__photo">
+        <div class="b-profile-name">
+          <h1 data-i18="name">Semion Krapivin</h1>
+          <h2 data-i18="profession">Junior Front-end developer</h2>
+        </div>
+      </section>
+      <section class="b-section b-contacts-section" id="contacts">
+        <div class="b-section-title">
+          <img class="b-icon" src="src/svg/contacts.svg" alt="contacts-icon">
+          <h3 data-i18="contacts">Contacts</h3>
+        </div>
+        <ul class="b-list b-contacts-list">
+          <li class="b-contacts-list__item"><a href="tel:+375447253087">+375 (44)725-30-87</a></li>
+          <li class="b-contacts-list__item"><a href="mailto:homer1996@gmail.com">homer1996@gmail.com</a></li>
+          <li class="b-contacts-list__item" data-i18="adress">Minsk, Belarus</li>
+        </ul>
+      </section>
+      <section class="b-section b-about-section" id="about">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/about.svg" alt="about-icon">
+          <h3 data-i18="about">About me</h3>
+        </div>
+        <p data-i18="about-text">
+          I'm 26 years old design engineer in energy producing industry.
+          I'm new to front-end development, I'm here to test my strength and
+          motivation in a new profession.
+        </p>
+      </section>
+      <section class="b-section b-skills-section" id="skills">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/skills.svg" alt="skills-icon">
+          <h3 data-i18="skills">Skills</h3>
+        </div>
+        <ul class="b-list b-skills__list">
+          <li class="b-list-skills__item"><img src="./src/svg/skills/html-5.png" alt="HTML"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/css-3.png" alt="CSS"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/sass.png" alt="SASS"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/js.png" alt="JavaScript"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/typescript.png" alt="TypeScript"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/git.png" alt="Git"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/webpack.png" alt="Webpack"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/react.png" alt="React"></li>
+          <li class="b-list-skills__item"><img src="./src/svg/skills/redux.png" alt="Redux"></li>
+        </ul>
+      </section>
+      <section class="b-section b-strenghts-section" id="strenghts">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/strenghts.svg" alt="strenghts-icon">
+          <h3 data-i18="strenghts">My strenghts</h3>
+        </div>
+        <ul class="b-list b-about-list">
+          <li data-i18="strenght1">Good communication skills</li>
+          <li data-i18="strenght2">Skill to work in team</li>
+          <li data-i18="strenght3">Responsibility</li>
+          <li data-i18="strenght4">Dependability</li>
+          <li data-i18="strenght5">Great willing to learn and develop new skills</li>
+        </ul>
+      </section>
+      <section class="b-section b-education-section" id="education">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/education.svg" alt="education-icon">
+          <h3 data-i18="education">Education</h3>
+        </div>
+        <ul class="b-list b-education-list">
+          <li>
+            <h4 data-i18="college">College</h4>
+            <p data-i18="college-text">Minsk State Architectural and
+              Сonstruction college, Industrial and Civil
+              Construction major</p>
+          </li>
+          <li>
+            <h4 data-i18="university">University</h4>
+            <p data-i18="university-text">National Technical University, Power
+              Plants Engineering major</p>
+          </li>
+        </ul>
+
+      </section>
+      <section class="b-section b-courses-section" id="courses">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/courses.svg" alt="education-icon">
+          <h3 data-i18="education">Courses</h3>
+        </div>
+        <ul class="b-list b-education-list">
+          <li class="b-education-list__item"><a href="https://www.sololearn.com/Play/HTML/hoc">Sololearn HTML</a>
+          </li>
+          <li class="b-education-list__item"><a href="https://www.sololearn.com/Play/CSS/hoc">Sololearn CSS</a>
+          </li>
+          <li class="b-education-list__item"><a href="https://bntu.by/all-services/languages" data-i18="courses3">BNTU
+              Tecnical
+              English course</a>
+          </li>
+          <li class="b-education-list__item"><a href="https://app.rs.school/certificate/2dyswcow">RS School
+              JS/FE - Stage 0</a>
+          </li>
+          <li class="b-education-list__item"><a href="https://app.rs.school/certificate/pkyem0t4">RS School
+              JS/FE - Stage 1+2</a>
+          </li>
+          <li class="b-education-list__item"><a href="https://app.rs.school/certificate/vxzu2z25">RS School
+              JS/FE - Stage 3</a>
+          </li>
+        </ul>
+      </section>
+      <section class="b-section b-languages-section" id="languages">
+        <div class="b-section-title"><img class="b-icon" src="src/svg/languages.svg" alt="language-icon">
+          <h3 data-i18="languages">Languages</h3>
+        </div>
+        <ul class="b-list b-languages-list">
+          <li class="b-languages-list__item"><span class="languages-bold" data-i18="language1">English - B1</span>
+          </li>
+          <li class="b-languages-list__item"><span class="languages-bold" data-i18="language2">Belarusian -
+              Native</span>
+          </li>
+          <li class="b-languages-list__item"><span class="languages-bold" data-i18="language3">Russian - Native</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="b-page__footer">
+    <div class="b-container b-footer-container">
+      <div class="b-social-icons">
+        <ul class="b-list b-social-list ">
+          <li class="b-social-list__item"><a href="https://www.facebook.com/semion.krapivin/"><img class="b-social-logo"
+                src="./src/svg/facebook.svg" alt="facebook"></a></li>
+          <li class="b-social-list__item"><a href="https://www.instagram.com/mr_s4m/?hl=ru"><img class="b-social-logo"
+                src="./src/svg/instagram.svg" alt="instagram"></a></li>
+          <li class="b-social-list__item"><a href="https://github.com/S4mm4ael"><img class="b-social-logo"
+                src="./src/svg/github.svg" alt="github"></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>
