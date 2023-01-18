@@ -1,2 +1,3 @@
-# js-from-zero
-Repo for test task JS From Zero To Hero 2023
+# JS From Zero CV link
+
+https://s4mm4ael.github.io/js-from-zero/
