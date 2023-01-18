@@ -2,7 +2,6 @@
 
 nav {
   background-color: var(--green);
-  overflow: hidden;
 }
 
 .b-nav-container {
@@ -48,7 +47,7 @@ a:hover {
   color: #000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
 
   .b-nav-list {
     position: fixed;
