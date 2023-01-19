@@ -103,14 +103,7 @@
 
 @media screen and (max-width: 580px) {
   .b-slideshow-img {
-    height: 150px;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-  .b-slideshow-img {
-    height: 140px;
+    height: 170px;
   }
 
 }
